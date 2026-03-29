@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Meeting — Gallatin Strategy Group</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#ffffff;--ink:#0a0c10;--ink2:#4a5568;--border:#e8ecf0}
+html,body{height:100%;overflow:hidden}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',sans-serif}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 3% 0 2%;height:68px;background:rgba(255,255,255,0.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.nav-back{font-size:0.935rem;color:var(--ink2);text-decoration:none;display:flex;align-items:center;gap:0.4rem;transition:color 0.2s}
+.nav-back:hover{color:var(--ink)}
+.nav-back svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.booking-frame{position:fixed;top:68px;left:0;right:0;bottom:0;width:100%;border:none}
+</style>
+</head>
+<body>
+<nav>
+  <span style="font-size:1.1rem;font-weight:600;color:var(--ink)">Gallatin Strategy Group</span>
+  <a class="nav-back" href="/">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+    Back to site
+  </a>
+</nav>
+<iframe
+  class="booking-frame"
+  src="https://go.gallatinstrategygroup.com/"
+  title="Book a Meeting with Gallatin Strategy Group"
+  loading="lazy"
+  allow="camera; microphone; autoplay; encrypted-media"
+></iframe>
+</body>
+</html>
