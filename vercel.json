@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/book", "destination": "https://go.gallatinstrategygroup.com/" }
+    { "source": "/book", "destination": "https://gsg-agency-bookingfunnel.netlify.app" }
   ]
 }
